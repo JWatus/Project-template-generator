@@ -13,11 +13,11 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        String ultimatePackageName = "eu.sii.pl.examples";
+        String ultimatePackageName = "examples";
         String ultimatePackagePath = "src/main/java/" + ultimatePackageName.replace(".", "/");
         Map<String, String> interfaceMap = new HashMap<>();
-        interfaceMap.put("eu.sii.pl.examples.interfaces.ThisInterface", "ThisInterface");
-        interfaceMap.put("eu.sii.pl.examples.interfaces.AnotherInterface", "AnotherInterface");
+        interfaceMap.put("examples.interfaces.ThisInterface", "ThisInterface");
+        interfaceMap.put("examples.interfaces.AnotherInterface", "AnotherInterface");
 
         DirectoryCreator.createDirectory(ultimatePackagePath);
         DirectoryCreator.createDirectory(ultimatePackagePath + "/interfaces");
