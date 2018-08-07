@@ -1,4 +1,4 @@
-package eu.sii.pl.service;
+package generator.service;
 
 import java.io.File;
 

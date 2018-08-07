@@ -1,6 +1,6 @@
-package eu.sii.pl.service;
+package generator.service;
 
-import eu.sii.pl.model.Parameters;
+import generator.model.Parameters;
 
 public class ClassTemplateGenerator {
 

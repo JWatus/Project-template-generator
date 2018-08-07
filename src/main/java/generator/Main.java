@@ -1,9 +1,9 @@
-package eu.sii.pl;
+package generator;
 
-import eu.sii.pl.model.Parameters;
-import eu.sii.pl.service.ClassFileCreator;
-import eu.sii.pl.service.ClassTemplateGenerator;
-import eu.sii.pl.service.DirectoryCreator;
+import generator.model.Parameters;
+import generator.service.ClassFileCreator;
+import generator.service.ClassTemplateGenerator;
+import generator.service.DirectoryCreator;
 
 import java.io.File;
 import java.io.IOException;

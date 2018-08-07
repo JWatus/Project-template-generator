@@ -1,4 +1,4 @@
-package eu.sii.pl.model;
+package generator.model;
 
 import java.util.Map;
 
